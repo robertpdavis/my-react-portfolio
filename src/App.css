@@ -1,3 +1,16 @@
+/* Set default colours for site */
+:root {
+  --background: #FFFFFF;
+  --header-background: #666666;
+  --border-colour: #222222;
+  --header-font: #14ABB2;
+  --text-font: #666666;
+  --label-background: #14ABB2;
+  --label-font: #FFFFFF;
+  --link-color: #FFFFFF;
+  --mod-title-desc-color: #000000;
+}
+
 /* Header set as flexbox with article wrap on small screens */
 header {
   display: flex;

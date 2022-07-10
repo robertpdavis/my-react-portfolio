@@ -7,7 +7,7 @@ export default function About() {
       <h2>About Me</h2>
       <section className="profile">
         <figure className="profile-image">
-          <img src="./public/images/me_profile.jpg" alt="Profile picture" />
+          <img src="../../images/me_profile.jpg" alt="Profile picture" />
         </figure>
         <article>
           <p>
