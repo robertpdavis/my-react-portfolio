@@ -2,12 +2,16 @@
   "name": "my-react-portfolio",
   "version": "1.0.0",
   "description": "My portfolio using React",
-  "main": "index.js",
+  "author": "Rob Davis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertpdavis/my-react-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertpdavis/my-react-portfolio/issues"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.27.2",
     "bootstrap": "^4.6.0",
     "dotenv": "^16.0.1",
     "pretty": "^2.0.0",
@@ -24,8 +28,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -39,15 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/robertpdavis/my-react-portfolio.git"
-  },
-  "author": "Rob Davis",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/robertpdavis/my-react-portfolio/issues"
-  },
-  "homepage": "https://github.com/robertpdavis/my-react-portfolio#readme"
+  }
 }
