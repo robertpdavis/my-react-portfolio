@@ -232,6 +232,10 @@ nav ul {
   font-size: 1.3rem;
 }
 
+.modal-body {
+  font-size: 1.3rem;
+}
+
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
 

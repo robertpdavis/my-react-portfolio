@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../app.css';
 import Project from '../Project';
-import Modal from '../Modal';
+import BSmodal from '../BSmodal';
 import proj1 from '../../assets/images/datashore.png';
 import proj2 from '../../assets/images/thepapermill.png';
 import proj3 from '../../assets/images/quizmaster.png';
@@ -61,21 +61,6 @@ const projects = [
   },
 ]
 
-// Handler for what happens when a showcase item is clicked
-let Popup = "";
-const handleSubmit = (event) => {
-  event.preventDefault();
-  const projectId = parseInt((event.target.id).substr((event.target.id).length - 1)) - 1;
-
-  projectId ? Popup = Modal(projects[projectId]) : Popup = "";
-
-  Popup = Modal(projects[projectId]);
-
-  console.log(Popup);
-
-  // bsModal.show();
-};
-
 let Sections = [];
 let project1 = '';
 let project2 = '';
@@ -95,12 +80,30 @@ for (let index = 0; index < projects.length; index += 2) {
 }
 
 export default function Portfolio() {
+
+  const [project, setProject] = useState('');
+  const [modalShow, setModalSHow] = useState(false);
+
+  const resetModalShow = () => {
+    setModalSHow(false);
+  }
+
+  // Handler for what happens when a showcase item is clicked
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const projectId = parseInt((event.target.id).substr((event.target.id).length - 1)) - 1;
+    if (projectId >= 0) {
+      setProject(projects[projectId]);
+      setModalSHow(true);
+    }
+  }
+
   return (
     <section className="section page container" id="my-work">
       <form id="showcase-form" onClick={handleSubmit}>
         {Sections}
       </form>
-      {Popup}
+      <BSmodal project={project} show={modalShow} resetModalShow={resetModalShow} />
     </section>
   )
 }
