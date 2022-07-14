@@ -133,6 +133,10 @@ nav ul {
   max-width: 100%;
 }
 
+.profile-links a {
+  padding-right: 2rem;
+}
+
 /* Container flexbox class for work image section */
 .container {
   display: flex;
