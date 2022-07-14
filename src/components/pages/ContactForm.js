@@ -85,6 +85,7 @@ function ContactForm() {
         )}
         <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
       </form>
+      ✉ Email: <a href="mailto:robertpdavis@optusnet.com.au">robertpdavis@optusnet.com.au</a>
     </section>
   );
 }
