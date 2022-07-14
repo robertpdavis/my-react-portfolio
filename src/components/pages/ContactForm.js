@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../../app.css';
 
 // Here we import a helper function that will check if the email is valid
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
   // Create state variables for the fields in the form
@@ -33,17 +33,23 @@ function ContactForm() {
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the name and message is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !name || !message) {
-      setErrorMessage('Name, email or messgae is invalid');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
+    if (!name) {
+      setErrorMessage('Name is required');
       return;
-      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+    } else if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
+      return;
+      return;
+    } else if (!message) {
+      setErrorMessage('Mesage is required');
+      return;
     }
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
     setEmail('');
     setMessage('');
+    setErrorMessage('');
   };
 
   return (
@@ -66,20 +72,19 @@ function ContactForm() {
           placeholder="Email"
         />
         <label htmlFor="message">Message</label>
-        <input
-          value={message}
+        <textarea
+          id="message"
           name="message"
+          value={message}
           onChange={handleInputChange}
-          type="text"
-          placeholder="Message"
         />
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
         <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
       </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
     </section>
   );
 }
