@@ -5,19 +5,25 @@
 
 html {
   /* Set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
-  font-size: 62.5%;
+  font-size: 100%;
 }
 
 body {
-  /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-
-  /* 1.75rem = 17.5px */
   font-size: 1.75rem;
   line-height: 1.5;
   color: var(--text-font);
   background-color: var(--background);
   width: 100%;
   margin: auto;
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+
+  /* Adjust body width for large screen size */
+  body {
+    width: 80%;
+  }
 }

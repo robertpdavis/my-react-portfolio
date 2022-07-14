@@ -1,10 +1,16 @@
 import React from 'react';
-import '../App.css';
 import Navigation from "./Navigation";
+import '../app.css';
+
+const styles = {
+  header: {
+    display: 'flex'
+  },
+};
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <header>
+    <header style={styles.header}>
       <h1>Rob Davis Profile</h1>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>

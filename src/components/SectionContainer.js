@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import '../app.css';
 
 import Header from './Header';
 import Footer from './Footer';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import ContactForm from './pages/ContactForm';
 import Resume from './pages/Resume';
 
 export default function SectionContainer() {
@@ -19,7 +20,7 @@ export default function SectionContainer() {
       return <Portfolio />;
     }
     if (currentPage === 'Contact') {
-      return <Contact />;
+      return <ContactForm />;
     }
     return <Resume />;
   };
@@ -29,10 +30,7 @@ export default function SectionContainer() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <section>
-        {/* Here we are calling the renderPage method which will return a component  */}
-        {renderPage()}
-      </section>
+      {renderPage()}
       <Footer />
     </div>
   );

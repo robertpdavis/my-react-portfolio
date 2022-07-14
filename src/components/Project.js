@@ -1,16 +1,16 @@
 import React from 'react';
-import '../App.css';
+import '../app.css';
 
-function Project() {
+export default function Project(project) {
+  const showcase = `showcase-${project.item}`;
   return (
-    <figure className="item" id="showcase-2">
-      <img src="./public/images/thepapermill.png" alt="Image of other showcase website - 1 of 4" />
-      <div className="label" id="showcase-2">
-        <h3>The Papermill 414</h3>
-        <span className="label-text">CMS HTML CSS JAVASCRIPT PHP MYSQL</span>
+    <figure className="item" id={showcase} key={project.item}>
+      <img src={project.image} alt={project.alt} id={showcase} />
+      <div className="label" id={showcase}>
+        <h4 id={showcase}>{project.name}</h4>
+        <span className="label-text" id={showcase}>{project.shortDesc}</span>
       </div>
-    </figure>
+    </figure >
   );
 }
 
-export default Project;
