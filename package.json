@@ -4,7 +4,7 @@
   "description": "My portfolio using React",
   "author": "Rob Davis",
   "license": "MIT",
-  "homepage": "https://robertpdavis.github.io/my-react-portfolio",
+  "homepage": "https://robertpdavis.github.io",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robertpdavis/my-react-portfolio.git"
@@ -15,7 +15,6 @@
   "dependencies": {
     "bootstrap": "^4.6.1",
     "dotenv": "^16.0.1",
-    "gh-pages": "^4.0.0",
     "pretty": "^2.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
@@ -45,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
