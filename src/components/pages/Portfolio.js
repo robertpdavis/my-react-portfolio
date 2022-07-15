@@ -66,17 +66,17 @@ let project1 = '';
 let project2 = '';
 
 for (let index = 0; index < projects.length; index += 2) {
+  let subSections = [];
 
-  project1 = Project(projects[index]);
+  subSections.push(<div key={index}>{Project(projects[index])}</div>);
 
   if (index + 1 < projects.length) {
-    project2 = Project(projects[index + 1]);
+    subSections.push(<div key={index + 1}>{Project(projects[index + 1])}</div>);
   } else {
-    project2 = "";
+    subSections.push("");
   }
 
-  Sections.push(<section className="container">{project1}{project2}</section>);
-
+  Sections.push(<section className="container">{subSections[0]}{subSections[1]}</section>);
 }
 
 export default function Portfolio() {

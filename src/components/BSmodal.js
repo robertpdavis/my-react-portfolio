@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import '../app.css';
@@ -15,14 +15,14 @@ export default function BSmodal(props) {
 
     options.push(<span className="title-desc">{props.project.name}</span>);
 
-    if (props.project.website != "") {
-      options.push(<div><p>{props.project.desc}</p><p>Click on the link below to go to the website.</p><a href={props.project.website} target="_blank" >Go to Website</a></div>)
+    if (props.project.website !== "") {
+      options.push(<div><p>{props.project.desc}</p><p>Click on the link below to go to the website.</p><a href={props.project.website} target="_blank" rel="noreferrer">Go to Website</a></div>)
     } else {
       options.push(<div><p>{props.project.desc}</p></div>)
     }
 
-    if (props.project.github != "") {
-      options.push(<div><a href={props.project.github} target="_blank"> Github</a></div>)
+    if (props.project.github !== "") {
+      options.push(<div><a href={props.project.github} target="_blank" rel="noreferrer"> Github</a></div>)
     }
   }
   return (

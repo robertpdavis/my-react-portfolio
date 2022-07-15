@@ -4,7 +4,7 @@
   "description": "My portfolio using React",
   "author": "Rob Davis",
   "license": "MIT",
-  "homepage": "https://robertpdavis.github.io",
+  "homepage": "https://robertpdavis.github.io/my-react-portfolio/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robertpdavis/my-react-portfolio.git"
