@@ -7,6 +7,7 @@ import proj2 from '../../assets/images/thepapermill.png';
 import proj3 from '../../assets/images/quizmaster.png';
 import proj4 from '../../assets/images/weatherpro.png';
 import proj5 from '../../assets/images/dark-crawler.png';
+import proj6 from '../../assets/images/techpostit.png';
 
 const projects = [
   {
@@ -57,6 +58,16 @@ const projects = [
     github: "https://github.com/robertpdavis/dark-crawler",
     website: "https://dark-crawler.herokuapp.com/",
     image: proj5,
+    alt: "Showcase website"
+  },
+  {
+    item: "6",
+    name: "Tech Post It!",
+    desc: "Tech Post It is a Node.js - Express API blogging application. It allows for full CRUD functionality (via GET, POST, UPDATE and DELETE) for posts and POST for users and comments. All data is stored in a mysql database and uses the Seqelize ORM to simplify the database interactions.",
+    shortDesc: "FULL STACK - NODE.JS / EXPRESS / MYSQL>SEQUELIZE ORM",
+    github: "https://github.com/robertpdavis/techpostit",
+    website: "https://techpostit.herokuapp.com",
+    image: proj6,
     alt: "Showcase website"
   },
 ]
