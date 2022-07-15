@@ -8,6 +8,7 @@
   --label-background: #14ABB2;
   --label-font: #FFFFFF;
   --link-color: #FFFFFF;
+  --link-active: #14ABB2;
   --mod-title-desc-color: #000000;
 }
 
@@ -44,6 +45,10 @@ nav a {
   color: var(--link-color);
   text-decoration: none;
   margin: auto;
+}
+
+.active {
+  color: var(--link-active);
 }
 
 h1,

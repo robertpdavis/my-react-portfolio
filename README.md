@@ -36,8 +36,11 @@ react-scripts
 dotenv
 pretty
 web-vitals
+gh-pages (for deploying to github)
 
-The inlcuded react-scripts will take care of starting and building the app for deplopyment.
+The inlcuded react-scripts will take care of starting and building the app and deploying it:
+* Both npm run predeploy or build will create the dist build folder and optimized files for deployment. 
+* Npm run deploy will build and deploy to github page as defined in the homepage.
 
 File structure of the application:
 ```md
@@ -53,9 +56,9 @@ File structure of the application:
 ```
 
 ## Usage
-Run the server
+Usuage is straight forward. Note that clicking on a portfolio project impage with show a modal popup with extra details about the project and any links to a deployed website/github page and the github repo.
 
-Live website is available at Heroku: https://techpostit.herokuapp.com
+Live static site is available on github: https://robertpdavis.github.io/my-react-portfolio
 
 ## Credits
 Rob Davis Github: [robertpdavis](https://github.com/robertpdavis)
