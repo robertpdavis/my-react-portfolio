@@ -4,6 +4,7 @@
   "description": "My portfolio using React",
   "author": "Rob Davis",
   "license": "MIT",
+  "homepage": "https://robertpdavis.github.io/my-react-portfolio",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robertpdavis/my-react-portfolio.git"
@@ -14,6 +15,7 @@
   "dependencies": {
     "bootstrap": "^4.6.1",
     "dotenv": "^16.0.1",
+    "gh-pages": "^4.0.0",
     "pretty": "^2.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
@@ -22,10 +24,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
