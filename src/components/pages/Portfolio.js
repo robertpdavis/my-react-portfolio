@@ -22,11 +22,11 @@ const projects = [
   },
   {
     item: "2",
-    name: "The Papermill 414",
-    desc: "Business customer utlising the Joomlas CMS and modifications on HTML, CMS, JS, PHP. Website no longer active as client no longer trading.",
-    shortDesc: "CMS HTML CSS JAVASCRIPT PHP MYSQL",
-    github: "",
-    website: "",
+    name: "Javascrypt Quizmaster ",
+    desc: "Displays multiple choice questions about javascript to a user. The user has a time limit to answer them. If the user answers a question wrong, the time remaining is reduced by a defined set amount. Quiz finishes when the user either answers all questions or time expires.",
+    shortDesc: "HTML CSS JAVASCRIPT",
+    github: "https://github.com/robertpdavis/js-quizmaster",
+    website: "https://robertpdavis.github.io/js-quizmaster/",
     image: proj2,
     alt: "Showcase website"
   },
@@ -66,7 +66,7 @@ const projects = [
     desc: "Online web app providing automated betting systems for Betfair users. Users the Betfair provided APIs for automation. Scheduled proceses on the server side to place and update bets as well as update events.",
     shortDesc: "FULL STACK - REACT / NODE.JS / EXPRESS / MONGOOSE / GRAPHQL",
     github: "https://github.com/robertpdavis/betfair-bet-bot",
-    website: "https://betterbetbot.com.au",
+    website: "http://ec2-54-206-10-245.ap-southeast-2.compute.amazonaws.com/",
     image: proj6,
     alt: "Showcase website"
   },

@@ -45,7 +45,7 @@ function ContactForm() {
       return;
     }
 
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
+    // If everything goes according to plan, we want to clear out the input after a successful submission.
     setName('');
     setEmail('');
     setMessage('');
