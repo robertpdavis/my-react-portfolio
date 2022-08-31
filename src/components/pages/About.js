@@ -17,8 +17,8 @@ export default function About() {
             project management, commercial, business management and client relationship capabilities.
           </p>
           <p>
-            A well respected team player that leads by example with a proven ability to deliver customer
-            requirements and business objectives.
+            A well respected team player who works well under pressure and leads by example with a proven ability to deliver customer
+            expectations and business objectives.
           </p>
           <p>
             Excellent customer relationship and experience management across executive, business and
