@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.0f344cbe.css",
-    "main.js": "/my-react-portfolio/static/js/main.22a665a4.js",
+    "main.js": "/my-react-portfolio/static/js/main.15b8d7d0.js",
     "static/media/me_profile.jpg": "/my-react-portfolio/static/media/me_profile.c45200dbcaeca58a95d5.jpg",
     "static/media/datashore.png": "/my-react-portfolio/static/media/datashore.f8deed13fdfcee242dd4.png",
     "static/media/dark-crawler.png": "/my-react-portfolio/static/media/dark-crawler.014dbee91e392c5b9118.png",
     "static/media/techpostit.png": "/my-react-portfolio/static/media/techpostit.39cc82fef343a4338338.png",
-    "static/media/resume.pdf": "/my-react-portfolio/static/media/resume.04cf50f5e47666c48d52.pdf",
+    "static/media/betfairbetbot.png": "/my-react-portfolio/static/media/betfairbetbot.46929d8578dc865f767e.png",
+    "static/media/resume.pdf": "/my-react-portfolio/static/media/resume.08ff07c155896556c6f9.pdf",
     "static/media/quizmaster.png": "/my-react-portfolio/static/media/quizmaster.bfc871077d7596cd01fd.png",
     "static/media/weatherpro.png": "/my-react-portfolio/static/media/weatherpro.82540e19bb8606ffc431.png",
-    "static/media/betfairbetbot.png": "/my-react-portfolio/static/media/betfairbetbot.3c63f004d8f4f027d17b.png",
     "index.html": "/my-react-portfolio/index.html",
     "main.0f344cbe.css.map": "/my-react-portfolio/static/css/main.0f344cbe.css.map",
-    "main.22a665a4.js.map": "/my-react-portfolio/static/js/main.22a665a4.js.map"
+    "main.15b8d7d0.js.map": "/my-react-portfolio/static/js/main.15b8d7d0.js.map"
   },
   "entrypoints": [
     "static/css/main.0f344cbe.css",
-    "static/js/main.22a665a4.js"
+    "static/js/main.15b8d7d0.js"
   ]
 }
