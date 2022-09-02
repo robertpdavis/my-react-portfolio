@@ -13,27 +13,19 @@ export default function About() {
         </figure>
         <article>
           <p>
-            Full stack software developer and career professional with extensive operational, engineering,
-            project management, commercial, business management and client relationship capabilities.
+            Full stack web developer and IT professional who has recently earned a certificate in Full Stack Web Development from the
+            University of Sydney Coding Boot Camp and is excited about a career in the web development space.
           </p>
           <p>
-            A well respected team player who works well under pressure and leads by example with a proven ability to deliver customer
-            expectations and business objectives.
+            Diverse background in technical, telecommunications, marketing, body corporate and other business management related roles.
+            A qualified electrical and IT network engineer, project manager and product manager with strong interpersonal skills and attention to detail.
           </p>
           <p>
-            Excellent customer relationship and experience management across executive, business and
-            consumer clients.
+            A well respected team player who leads by example and works well under pressure with a proven ability to deliver technical projects that meet
+            customer expectations and achieve business objectives
           </p>
           <p>
-            The capabilities I have gained throughout my career allows me to bring to life client's
-            expectations across the full stack web development process.
-          </p>
-          <p>
-            From inital concept design and creation of user stories and acceptance criteria, to implementing
-            the client side user exerience and server functionality.
-          </p>
-          <p>
-            I have a passion for web development and seeing projects through to a successful completion.
+            Suited to roles in operational and project teams with a strong internal and external customer management and relationship focus.
           </p>
         </article>
       </section>

@@ -111,6 +111,7 @@ export default function Portfolio() {
 
   return (
     <section className="section page container" id="my-work">
+      <h4>Click on image for further details</h4>
       <form id="showcase-form" onClick={handleSubmit}>
         {Sections}
       </form>
