@@ -1,6 +1,6 @@
 import React from 'react';
 import profpict from '../../assets/images/me_profile.jpg';
-import '../../app.css';
+import '../../App.css';
 
 console.log('here', process.env.EMAIL_PASS)
 

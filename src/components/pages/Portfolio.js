@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../app.css';
+import '../../App.css';
 import Project from '../Project';
 import BSmodal from '../BSmodal';
 import proj1 from '../../assets/images/datashore.png';

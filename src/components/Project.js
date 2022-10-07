@@ -1,5 +1,5 @@
 import React from 'react';
-import '../app.css';
+import '../App.css';
 
 export default function Project(project) {
   const showcase = `showcase-${project.item}`;

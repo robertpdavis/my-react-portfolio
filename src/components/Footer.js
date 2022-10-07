@@ -1,5 +1,5 @@
 import React from 'react';
-import '../app.css';
+import '../App.css';
 import github from '../assets/images/github.png';
 import linkedin from '../assets/images/linkedIn.png';
 import stack from '../assets/images/stackoverflow.png';
