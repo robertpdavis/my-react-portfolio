@@ -11,9 +11,18 @@ export default function BSmodal(props) {
 
   const options = [];
 
-  if (props.project) {
 
-    options.push(<span className="title-desc">{props.project.name}</span>);
+  if (props.project === "") {
+    if (props.contactFormStatus === true) {
+      options.push(<span className="title-desc">Message Submitted</span>);
+      options.push(<div><p>Thanks for your message. I will get back to you shortly.</p></div>)
+    } else {
+      options.push(<span className="title-desc">Message Failed</span>);
+      options.push(<div><p>Message failed to submit. Please try again.</p></div>)
+    }
+
+  } else {
+    options.push(<span className="title-desc">Project: {props.project.name}</span>);
 
     if (props.project.website !== "") {
       options.push(<div><p>{props.project.desc}</p><p>Click on the link below to go to the website.</p><a href={props.project.website} target="_blank" rel="noreferrer">Go to Website</a></div>)
@@ -25,6 +34,7 @@ export default function BSmodal(props) {
       options.push(<div><a href={props.project.github} target="_blank" rel="noreferrer"> Github</a></div>)
     }
   }
+
   return (
     <>
       <Modal
@@ -34,7 +44,7 @@ export default function BSmodal(props) {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title >Project: {options[0]}</Modal.Title>
+          <Modal.Title >{options[0]}</Modal.Title>
         </Modal.Header>
         <Modal.Body >{options[1]}{options[2]}</Modal.Body>
         <Modal.Footer >

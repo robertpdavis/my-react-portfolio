@@ -2,8 +2,6 @@ import React from 'react';
 import profpict from '../../assets/images/me_profile.jpg';
 import '../../App.css';
 
-console.log('here', process.env.EMAIL_PASS)
-
 export default function About() {
   return (
     <section className="section page" id="about-me">

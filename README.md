@@ -7,6 +7,8 @@ Profile React app for Rob Davis Full Stack Web Developer
 
 Webpage profile overview built as mobile first using HTML and CSS with flexbox and media queries to create a responsive design. Also includes a bootstrap modal for user interaction. Create React project
 
+EmailJs is used to provide the contact form email functionailty. NOTE: If using this to create your own profile page, you will need to replace the placeholder values for your EmailJS service, template and Id in the CoontactForm page for it to work.
+
 The profile is a single page app with several sections:
 
 * About Me - an article about Rob Davis with profile picture
@@ -36,7 +38,7 @@ react-scripts
 dotenv
 pretty
 web-vitals
-gh-pages (for deploying to github)
+gh-pages (if deploying to github)
 
 The inlcuded react-scripts will take care of starting and building the app and deploying it:
 * Both npm run predeploy or build will create the dist build folder and optimized files for deployment. 
@@ -58,7 +60,7 @@ File structure of the application:
 ## Usage
 Usuage is straight forward. Note that clicking on a portfolio project impage with show a modal popup with extra details about the project and any links to a deployed website/github page and the github repo.
 
-Live static site is available on github: https://robertpdavis.github.io/my-react-portfolio
+* Live site is available on AWS at - https://robpdavis.com.au
 
 ## Credits
 Rob Davis Github: [robertpdavis](https://github.com/robertpdavis)

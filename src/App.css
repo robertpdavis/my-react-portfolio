@@ -51,6 +51,10 @@ nav a {
   color: var(--link-active);
 }
 
+.title:hover {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
