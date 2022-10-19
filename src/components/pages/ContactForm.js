@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
 import BSmodal from '../BSmodal';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function ContactForm() {
 
@@ -11,10 +12,12 @@ export default function ContactForm() {
     setModalSHow(false);
   }
 
+  function onCaptcha(value) {
+    //To DO
+  }
+
   function sendEmail(e) {
     e.preventDefault();
-
-    console.log(process.env.CONTACT_FORM_KEY)
 
     emailjs.sendForm('YOUR_SERVICE', 'YOUR_TEMPLATE', e.target, 'YOUR_ID')
 
@@ -39,6 +42,12 @@ export default function ContactForm() {
         <input type="text" name="subject" />
         <label htmlFor="html_message">Message</label>
         <textarea name="html_message" />
+        <div className="mt-3 mb-3">
+          <ReCAPTCHA
+            sitekey="6Lckt40iAAAAAIWmLfe2_zj7TECsaL6-0lU8CRIh"
+            onChange={onCaptcha}
+          />
+        </div>
         <input type="submit" value="Send" />
       </form>
       ✉ Email: <a href="mailto:robertpdavis@optusnet.com.au">robertpdavis@optusnet.com.au</a>

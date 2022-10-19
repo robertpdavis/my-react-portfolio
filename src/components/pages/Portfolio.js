@@ -46,7 +46,7 @@ const projects = [
     desc: "Tech Post It is a Node.js - Express API blogging application. It allows for full CRUD functionality (via GET, POST, UPDATE and DELETE) for posts and POST for users and comments. All data is stored in a mysql database and uses the Seqelize ORM to simplify the database interactions.",
     shortDesc: "FULL STACK - NODE.JS / EXPRESS / MYSQL>SEQUELIZE ORM",
     github: "https://github.com/robertpdavis/techpostit",
-    website: "https://techpostit.herokuapp.com",
+    website: "https://techpostit.robpdavis.com.au",
     image: proj4,
     alt: "Showcase website"
   },
@@ -56,7 +56,7 @@ const projects = [
     desc: "This project was built in Node.js using the express and sequelize packages utilizing the MVC paradigm.JS, Node.js, MongoDB,Handlebars, Model-View-Controller, dotenv, MySQL, Cookies, Sessions",
     shortDesc: "FULL STACK - NODE.JS / EXPRESS / MYSQL>SEQUELIZE ORM",
     github: "https://github.com/robertpdavis/dark-crawler",
-    website: "https://dark-crawler.herokuapp.com/",
+    website: "https://darkcrawler.robpdavis.com.au/",
     image: proj5,
     alt: "Showcase website"
   },
@@ -66,7 +66,7 @@ const projects = [
     desc: "Online web app providing automated betting systems for Betfair users. Users the Betfair provided APIs for automation. Scheduled proceses on the server side to place and update bets as well as update events.",
     shortDesc: "FULL STACK - REACT / NODE.JS / EXPRESS / MONGOOSE / GRAPHQL",
     github: "https://github.com/robertpdavis/betfair-bet-bot",
-    website: "http://ec2-54-206-10-245.ap-southeast-2.compute.amazonaws.com/",
+    website: "https://betfairbetbot.robpdavis.com.au/",
     image: proj6,
     alt: "Showcase website"
   },
