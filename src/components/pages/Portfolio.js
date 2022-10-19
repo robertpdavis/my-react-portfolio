@@ -66,7 +66,7 @@ const projects = [
     desc: "Online web app providing automated betting systems for Betfair users. Users the Betfair provided APIs for automation. Scheduled proceses on the server side to place and update bets as well as update events.",
     shortDesc: "FULL STACK - REACT / NODE.JS / EXPRESS / MONGOOSE / GRAPHQL",
     github: "https://github.com/robertpdavis/betfair-bet-bot",
-    website: "https://betfairbetbot.robpdavis.com.au/",
+    website: "",
     image: proj6,
     alt: "Showcase website"
   },
