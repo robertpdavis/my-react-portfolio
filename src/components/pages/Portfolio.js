@@ -13,7 +13,7 @@ const projects = [
   {
     item: "1",
     name: "Datashore Solutions",
-    desc: "Business customer utlising the Joomlas CMS and modifications on HTML, CMS, JS, PHP with client login area.",
+    desc: "Business customer utilising the Joomla CMS and modifications on HTML, CMS, JS, PHP with client login area.",
     shortDesc: "CMS HTML CSS JAVASCRIPT PHP MYSQL HOSTING",
     github: "",
     website: "https://www.datashore.com.au/",
@@ -63,7 +63,7 @@ const projects = [
   {
     item: "6",
     name: "Betfair Bet Bot",
-    desc: "Online web app providing automated betting systems for Betfair users. Users the Betfair provided APIs for automation. Scheduled proceses on the server side to place and update bets as well as update events.",
+    desc: "Online web app providing automated betting systems for Betfair users. Uses the Betfair provided APIs for automation. Scheduled proceses on the server side to place and update bets as well as update events.",
     shortDesc: "FULL STACK - REACT / NODE.JS / EXPRESS / MONGOOSE / GRAPHQL",
     github: "https://github.com/robertpdavis/betfair-bet-bot",
     website: "",

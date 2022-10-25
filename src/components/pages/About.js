@@ -12,11 +12,15 @@ export default function About() {
         <article>
           <p>
             Full stack web developer and IT professional who has recently earned a certificate in Full Stack Web Development from the
-            University of Sydney Coding Boot Camp and is excited about a career in the web development space.
+            University of Sydney Coding Boot Camp.
+          </p>
+          <p>
+            Proficient in HTML, CSS, Javascript & Typescrypt, PHP, Visual Basic, MySQL and MongoDB databases, REST and GraphQL APIs.
+            Currently learning Python, C# and AWS certification.
           </p>
           <p>
             Diverse background in technical, telecommunications, marketing, body corporate and other business management related roles.
-            A qualified electrical and IT network engineer, project manager and product manager with strong interpersonal skills and attention to detail.
+            A qualified electrical and IT network engineer, project manager (Agile - Scrum) and product manager with strong interpersonal skills and attention to detail.
           </p>
           <p>
             A well respected team player who leads by example and works well under pressure with a proven ability to deliver technical projects that meet
