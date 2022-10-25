@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.f35be1f7.css",
-    "main.js": "/static/js/main.2562d77f.js",
+    "main.js": "/static/js/main.48b2823b.js",
     "static/media/me_profile.jpg": "/static/media/me_profile.c45200dbcaeca58a95d5.jpg",
     "static/media/datashore.png": "/static/media/datashore.f8deed13fdfcee242dd4.png",
     "static/media/dark-crawler.png": "/static/media/dark-crawler.014dbee91e392c5b9118.png",
     "static/media/techpostit.png": "/static/media/techpostit.39cc82fef343a4338338.png",
     "static/media/betfairbetbot.png": "/static/media/betfairbetbot.46929d8578dc865f767e.png",
-    "static/media/resume.pdf": "/static/media/resume.08ff07c155896556c6f9.pdf",
+    "static/media/resume.pdf": "/static/media/resume.c1daaf5f32e69a958da0.pdf",
     "static/media/quizmaster.png": "/static/media/quizmaster.bfc871077d7596cd01fd.png",
     "static/media/weatherpro.png": "/static/media/weatherpro.82540e19bb8606ffc431.png",
     "index.html": "/index.html",
     "main.f35be1f7.css.map": "/static/css/main.f35be1f7.css.map",
-    "main.2562d77f.js.map": "/static/js/main.2562d77f.js.map"
+    "main.48b2823b.js.map": "/static/js/main.48b2823b.js.map"
   },
   "entrypoints": [
     "static/css/main.f35be1f7.css",
-    "static/js/main.2562d77f.js"
+    "static/js/main.48b2823b.js"
   ]
 }
