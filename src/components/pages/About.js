@@ -16,7 +16,6 @@ export default function About() {
           </p>
           <p>
             Proficient in HTML, CSS, Javascript & Typescrypt, PHP, Visual Basic, MySQL and MongoDB databases, REST and GraphQL APIs.
-            Currently learning Python, C# and AWS certification.
           </p>
           <p>
             Diverse background in technical, telecommunications, marketing, body corporate and other business management related roles.
@@ -28,6 +27,9 @@ export default function About() {
           </p>
           <p>
             Suited to roles in operational and project teams with a strong internal and external customer management and relationship focus.
+          </p>
+          <p>
+            Currently working on a React/Node project using MongoDB with Hosting on AWS EC2. Open to opportunities.
           </p>
         </article>
       </section>
