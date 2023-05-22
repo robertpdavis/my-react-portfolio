@@ -20,6 +20,8 @@
 Personal Server.pem
 info.txt
 
+sshlogin.txt
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
